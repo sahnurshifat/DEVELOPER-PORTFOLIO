@@ -17,6 +17,7 @@ span:hover{
 
 section{
     display: flex;
+    margin: 0px;
 }
 
 .futani{
@@ -25,7 +26,7 @@ section{
 }
 
 .futani img{
-    width: 70%;
+    width: 80%;
 }
 
 .link-button{
@@ -37,8 +38,41 @@ section{
     padding: 10px 40px;
     border-radius: 6px;
 }
+.link-button:hover{
+    background-image: linear-gradient(crimson, tomato);
+    background-color: crimson;
+    color: black;
+}
 
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+#tnt{
+    color: yellowgreen;
+}
+#tnt:hover{
+    color: palevioletred;
+}
+
+.link-buttn{
+    text-decoration: none;
+    background-image: linear-gradient(yellowgreen, green);
+    background-color: yellowgreen;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+.link-buttn:hover{
+    background-image: linear-gradient(pink, palevioletred);
+    background-color: palevioletred;
+    color: black;
+}
+
+.second{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
