@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -12,4 +13,32 @@ span{
 
 span:hover{
     color: orangered;
+}
+
+section{
+    display: flex;
+}
+
+.futani{
+    width: 50%;
+    padding: 5%
+}
+
+.futani img{
+    width: 70%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orangered, orange);
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
