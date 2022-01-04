@@ -2,33 +2,26 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
 h1{
     font-size: 50px;
 }
-
 span{
     color: orange;
 }
-
 span:hover{
-    color: orangered;
+    color: tomato;
 }
-
 .container{
     display: flex;
     margin: 0px;
 }
-
 .futani{
     width: 50%;
     padding: 5%
 }
-
 .futani img{
     width: 80%;
 }
-
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orangered, orange);
@@ -39,23 +32,20 @@ span:hover{
     border-radius: 6px;
 }
 .link-button:hover{
-    background-image: linear-gradient(crimson, tomato);
-    background-color: crimson;
+    background-image: linear-gradient(red, palevioletred );
+    background-color: orangered;
     color: black;
 }
-
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-
 #tnt{
     color: yellowgreen;
 }
 #tnt:hover{
     color: palevioletred;
 }
-
 .link-buttn{
     text-decoration: none;
     background-image: linear-gradient(yellowgreen, green);
@@ -70,29 +60,72 @@ span:hover{
     background-color: palevioletred;
     color: black;
 }
-
 .second{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-
-#third{
+.third{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#manja{
+    color: darkmagenta;
+}
+#manja:hover{
+    color: violet;
 }
 .h2{
     font-size: 40px;
     font-weight: 800;
 }
-
  .x-area{
      width: 40%;
-     margin-left: 5%;
-     margin-right: 5%;
-     padding-left: 5px;
-     border-radius: 10px;
+     margin-left: 6%;
+     margin-right: 6%;
+     margin-bottom: 70px;
+     padding-left: 20px;
+     padding-right: 15px;
+     text-align: justify;
      box-shadow: 10px 10px 40px gray;
  }
- 
+ #jnr{
+     border-left: 5px solid;
+     border-image: linear-gradient(blue, cyan) ;
+     border-image-slice: 1;
+     border-radius: 5px;
+ }
+ #stack{
+     border-left: 5px solid;
+     border-image: linear-gradient(violet, tomato) ;
+     border-image-slice: 1;
+     border-radius: 5px;
+ }
+ footer p{
+     text-align: center;
+ }
+ #full{
+     color: crimson;
+ }
+ #full:hover{
+     color: coral;
+ }
+ #web{
+    color: lightseagreen;
+}
+#web:hover{
+    color: lightskyblue;
+}
+#fast{
+    color: mediumvioletred;
+}
+#fast:hover{
+    color: hotpink;
+}
+#last{
+    color: rgb(0, 255, 191);
+}
+#last:hover{
+    color: lightskyblue;
+}
